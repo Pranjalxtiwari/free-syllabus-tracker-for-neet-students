@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NEET Rewise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📚 NEET Rewise</h1>
+
+  <div class="subject-selector">
+    <button onclick="loadSubject('physics')">Physics</button>
+    <button onclick="loadSubject('chemistry')">Chemistry</button>
+    <button onclick="loadSubject('biology')">Biology</button>
+  </div>
+
+  <div class="progress-container">
+    <div id="subject-progress-bar" class="progress-bar"></div>
+    <p id="subject-progress-label">Subject Progress</p>
+  </div>
+
+  <div class="progress-container">
+    <div id="overall-progress-bar" class="progress-bar overall"></div>
+    <p id="overall-progress-label">Overall Progress</p>
+  </div>
+
+  <ul id="chapter-list"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
